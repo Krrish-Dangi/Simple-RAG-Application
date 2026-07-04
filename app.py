@@ -127,7 +127,7 @@ if question and file_uploaded:
         })
 
         status.update(
-            label = "", state = "complete", expanded = False
+            label = "✅ Done", state = "complete", expanded = False
         )
 
     st.write(response["answer"])
